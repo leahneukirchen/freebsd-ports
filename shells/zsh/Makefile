@@ -1,6 +1,6 @@
 PORTNAME=	zsh
 DISTVERSION=	5.9
-PORTREVISION=	4
+PORTREVISION=	5
 CATEGORIES=	shells
 MASTER_SITES=	https://www.zsh.org/pub/ \
 		SF \
@@ -38,7 +38,7 @@ CONFIGURE_ARGS=	--with-tcsetpgrp \
 CONFIGURE_ARGS+=--disable-site-fndir \
 		--enable-additional-fpath=${DATADIR}/site-functions
 
-CONFIGURE_ENV+=	zsh_cv_sys_path_dev_fd=no \
+CONFIGURE_ENV+=	zsh_cv_sys_path_dev_fd=yes \
 		ac_cv_header_sys_capability_h=no \
 		zsh_cv_path_utmpx=/var/run/utx.active
 
