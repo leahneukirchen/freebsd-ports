@@ -1,6 +1,6 @@
 PORTNAME=	libixp
 PORTVERSION=	0.5
-PORTREVISION=	2
+PORTREVISION=	102
 CATEGORIES=	devel
 MASTER_SITES=	http://dl.suckless.org/libs/
 
