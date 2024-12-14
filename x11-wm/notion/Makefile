@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	notion
-DISTVERSION=	4.0.0
+DISTVERSION=	4.0.2
 CATEGORIES=	x11-wm
 
 MAINTAINER=	amdmi3@FreeBSD.org
